@@ -1,0 +1,27 @@
+.summaryInnerContainer {
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.summaryInnerContainer h3 {
+  margin: 0;
+}
+
+button {
+  padding: 0.8rem;
+  border-radius: 30px;
+  border: none;
+  background-color: var(--color-dark-gray-blue);
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--color-light-royal-blue-bg);
+}

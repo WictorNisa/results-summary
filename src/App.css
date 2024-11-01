@@ -1,38 +1,46 @@
+:root {
+  /* Primary Colors */
+  --color-light-red: hsl(0, 100%, 67%);
+  --color-orangey-yellow: hsl(39, 100%, 56%);
+  --color-green-teal: hsl(166, 100%, 37%);
+  --color-cobalt-blue: hsl(234, 85%, 45%);
+
+  /* Gradients */
+  --color-light-slate-blue-bg: hsl(252, 100%, 67%);
+  --color-light-royal-blue-bg: hsl(241, 81%, 54%);
+  --color-violet-blue-circle: hsla(256, 72%, 46%, 1);
+  --color-persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+  /* Neutral Colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-pale-blue: hsl(221, 100%, 96%);
+  --color-light-lavender: hsl(241, 100%, 89%);
+  --color-dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+@font-face {
+  font-family: "Hanken";
+  src: url("../public/assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--color-pale-blue);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-family: "Hanken";
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Styles for screens wider than 500px */
+@media (min-width: 500px) {
+  /* Add your styles here for devices 500px and up */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Styles for screens that are 900px or narrower */
+@media (max-width: 900px) {
+  /* Add your styles here for devices 900px and narrower */
 }

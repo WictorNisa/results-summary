@@ -1,0 +1,28 @@
+.summaryCardContainer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.summaryCardContainer img {
+  margin-right: 0.5rem;
+  margin-left: .5rem;
+}
+
+.summaryCardContainer p {
+  font-weight: 600;
+}
+
+.summaryCardContainer h4 {
+  margin: auto 0.8rem auto auto;
+}
+
+.userScore {
+  font-weight: bolder;
+}
+
+.totalScore {   
+  color: var(--color-dark-gray-blue);
+}
